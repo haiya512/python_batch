@@ -1,0 +1,4 @@
+sh /data/chat_20/chatcontrol.sh restart
+sleep 2
+wget -O /root/dxz_check.sh http://10.0.0.30:8080/tools/daxiazhuan/dxz_check.sh && sh /root/dxz_check.sh
+wget -O /usr/local/bin/check_tenyear2.sh http://10.0.0.30:8080/down/domestic/games/tenyear2/uuzu/opscript/check_tenyear2.sh && sh /usr/local/bin/check_tenyear2.sh
